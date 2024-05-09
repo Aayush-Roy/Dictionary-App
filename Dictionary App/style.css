@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* color: #fff; */
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    display: flex;
+    place-content: center;
+    align-items: center;
+  }
+.inputBox{
+    /* border: 1px solid black; */
+    height:35px;
+    padding:3px 5px;
+    border-radius: 4px;
+    width:100%;
+    display: flex;
+    margin:5px auto;
+    /* background-color:rgba(185, 184, 184, 0.5); */
+    background-color: #ECF9FF;
+    /* border: 2px solid #fff; */
+    align-items: center;
+}
+.inputBox input{
+    border: 0;
+    width:95%;
+    background-color:transparent;
+    outline: 0;
+}
+.inputBox i{
+    color: black;
+    cursor: pointer;
+    transition:1s ease;
+}
+.inputBox i:hover{
+    color: #FBA834;
+}
+::placeholder{
+    /* color: #fff; */
+}
+.content div{
+    margin:10px 0px;
+    border-left:4px solid #FBA834;
+}
+.content span{
+    margin-left: 4px;
+}
+.container{
+    padding:10px 15px;
+    height:300px;
+    width:480px;
+    background-color: #525CEB;
+    /* background-image: url("https://img.freepik.com/free-vector/universe-background_1284-58417.jpg?size=626&ext=jpg&uid=R99651163&ga=GA1.1.47380549.1681698940&semt=sph"); */
+    /* background-image: url("https://img.freepik.com/free-vector/planets-outer-space-with-satellites-meteors-illustration_33099-2352.jpg?w=1380&t=st=1709831435~exp=1709832035~hmac=cf0465e76b96cf5512b86b146e62f6dc7cb221910c741feb97f3b11e7cdbcea9"); */
+    /* border: 1px solid black; */
+    background-size: cover;
+    box-shadow: 0px 7px 10px rgba(36, 36, 36, 0.4);
+    background-position: center;
+    border-radius: 20px;
+}
+.noun{
+    width:100%;
+    display: flex;
+    border: 1px solid #ECF9FF;
+    border-radius: 4px;
+    align-items: center;
+}
+.word,.mean,.emp,.sin{
+    display: flex;
+    border: 1px solid #ECF9FF;
+    width:100%;
+    border-radius:4px;
+    align-items: center;
+}
+
+#word{
+    margin-left:12%;
+    line-height:30px;
+    width:100%;
+    color: #fff;
+    border: 0;
+}
+#meaning{
+    font-size: 12px;
+}
+#noun{
+    margin-left:12%;
+   line-height:30px;
+   font-size: 12px;
+   width:100%;
+   text-align: left;
+   color: #fff;
+   border: 0; 
+}
+#meaning,#eg,#syn{
+   margin-left:8%;
+   line-height:30px;
+   font-size: 12px;
+   width:100%;
+   text-align: left;
+   color: #fff;
+   border: 0;
+   /* border:1px solid black; */
+}
+.content div{
+    height:30px;
+    /* width:100%; */
+    /* border: 1px solid black; */
+}
+header{
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    justify-content:center;
+    gap:150px;
+    align-items: center;
+}
+#eg{
+    font-size: 12px;
+}
